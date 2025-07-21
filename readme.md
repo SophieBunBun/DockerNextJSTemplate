@@ -1,11 +1,10 @@
-<h2>Useful commands:<h2>
+## Useful commands:
 
-<ol>
-<li><h3>Build:<h3>
+### 1. Build:
 ```
 docker compose build
-```<li>
-<li><h3>Run dev:<h3>
+```
+### 2. Run dev:
 .bat
 ```
 set NPM_TARGET=dev
@@ -19,9 +18,8 @@ NPM_TARGET=dev
 RESTART=no
 WATCHPACK_POLLING=true
 docker compose -f docker-compose.yml -f attach-volumes.yml up
-```<li>
-<li><h3>Start:<h3>
+```
+### 3. Start:
 ```
 docker compose up
-```<li>
-<ol>
+```
